@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shareholder Rules & Regulations</title>
+    <style>
+        :root {
+            --primary: #0f172a;
+            --accent: #2563eb;
+            --bg: #f8fafc;
+            --surface: #ffffff;
+            --text: #334155;
+            --text-dark: #0f172a;
+            --border: #e2e8f0;
+            --highlight-bg: #f0f9ff;
+            --highlight-border: #0284c7;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+
+        header {
+            background-color: var(--primary);
+            color: white;
+            padding: 2.5rem 1.5rem;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2rem;
+            margin-bottom: 0.5rem;
+            color: white;
+        }
+
+        header p {
+            color: #94a3b8;
+            font-size: 0.95rem;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem 2rem;
+            margin-bottom: 1.5rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+        }
+
+        .card h2 {
+            color: var(--text-dark);
+            font-size: 1.25rem;
+            margin-bottom: 0.75rem;
+            border-bottom: 2px solid var(--border);
+            padding-bottom: 0.5rem;
+        }
+
+        .card-highlight {
+            border-left: 4px solid var(--highlight-border);
+            background-color: var(--highlight-bg);
+        }
+
+        ul {
+            list-style-type: disc;
+            padding-left: 1.25rem;
+        }
+
+        li {
+            margin-bottom: 0.5rem;
+        }
+
+        .table-container {
+            overflow-x: auto;
+            margin-top: 1rem;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            text-align: left;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            padding: 0.75rem 1rem;
+            border: 1px solid var(--border);
+        }
+
+        th {
+            background-color: #f1f5f9;
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        .note {
+            font-size: 0.9rem;
+            color: #475569;
+            margin-top: 0.75rem;
+            background: #ffffff;
+            padding: 0.75rem 1rem;
+            border-radius: 6px;
+            border: 1px solid #cbd5e1;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Company Name</h1>
+        <p>Shareholder Governance, Rules & Regulations</p>
+    </header>
+
+    <div class="container">
+
+        <div class="card">
+            <h2>1. General Governance & Framework</h2>
+            <p>This portal outlines the rights, responsibilities, and operational procedures governing all equity holders of the company. Compliance with these terms is mandatory under the Corporate Charter and Bylaws.</p>
+        </div>
+
+        <div class="card card-highlight">
+            <h2>2. Capital Structure & Share Adjustment Policy</h2>
+            <p><strong>Proportional Share Quantity Adjustments (Reverse Split / Consolidation):</strong></p>
+            <ul>
+                <li><strong>Discretionary Adjustment:</strong> The company retains full authority to adjust or consolidate the total volume of outstanding shares at any time without prior individual member notice.</li>
+                <li><strong>Equal Proportional Impact:</strong> Any total share count reduction (e.g., a 1% reduction in total share pool) automatically reduces each shareholder's individual unit count by the exact same percentage (1%).</li>
+                <li><strong>Preservation of Equity Value:</strong> This adjustment strictly alters the numerical count of shares. Individual ownership percentage, relative voting power, and financial equity value remain 100% unaffected.</li>
+            </ul>
+            <div class="note">
+                <strong>Example:</strong> If total shares decrease by 10%, a member holding 1,000 shares will now hold 900 shares. However, their total value and percentage share of the company remain identical.
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>3. Transfer of Shares & Pre-Emptive Rights</h2>
+            <ul>
+                <li><strong>Right of First Refusal (ROFR):</strong> Shareholders proposing to sell, transfer, or assign equity must first offer those shares to existing shareholders on identical terms.</li>
+                <li><strong>Lock-Up Period:</strong> Initial equity grants are subject to a standard restriction window prior to external transfer requests.</li>
+                <li><strong>Board Approval:</strong> Any non-standard equity transfer requires explicit approval from the Board of Directors.</li>
+            </ul>
+        </div>
+
+        <div class="card">
+            <h2>4. Voting, Meetings & Compliance</h2>
+            <ul>
+                <li><strong>Annual General Meeting (AGM):</strong> Conducted annually with official notice provided to all voting shareholders.</li>
+                <li><strong>Quorum:</strong> Corporate proceedings require representation of the designated minimum percentage of voting shares present in person or by proxy.</li>
+                <li><strong>Confidentiality:</strong> Shareholders are bound by strict non-disclosure obligations regarding proprietary corporate metrics and strategic data.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Company Name. All Rights Reserved. Confidential & Proprietary.</p>
+    </footer>
+
+</body>
+</html>
